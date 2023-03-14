@@ -1,0 +1,12 @@
+STORE "item" with string "Noodle"
+STORE "qty" with number 2
+
+IF "item" equal "Noodle"
+	STORE "price" with number 3000
+	STORE "total" with "qty" times "price"
+ELSE
+	STORE "price" with number 5000
+	STORE "total" with "qty" times "price"
+
+PRINT "item" "qty" "price"
+PRINT "total"
